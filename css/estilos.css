@@ -1,25 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(../image/fondo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 330vh;
-    font-family: 'Raleway', sans-serif;
-}
 
-h2 {
-    text-align: center;
-    font-size: 40px;
-    font-family: arial;
-    margin-top: 80px;
-    color: aqua;
-    text-shadow: 0px 0px 6px black;
-}
+/* Contenido Carrousel */
 
 .content-all {
     width: 210px;
@@ -28,6 +14,7 @@ h2 {
     perspective: 800px;
     position: relative;
     margin-top: 50px;
+    padding: 10px;
 }
 
 .content-carrousel {
@@ -35,6 +22,7 @@ h2 {
     position: absolute;
     animation: rotar 20s infinite linear;
     transform-style: preserve-3d;
+    padding-bottom: 20px;
 }
 
 .content-carrousel:hover {
@@ -115,6 +103,9 @@ h2 {
     }
 }
 
+
+/*Contenido cabecera*/
+
 .header {
     background-color: #000;
     color: white;
@@ -124,6 +115,31 @@ h2 {
     top: 0;
     width: 100%;
 }
+
+
+/* Contenido frase representativo */
+
+.mainimage {
+    background-image: url(../img/frutas-2.gif);
+    border: 1px solid black;
+    margin-left: 50px;
+    width: 1000px;
+    height: 750px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.main {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.textblack {
+    font-weight: 500;
+}
+
+
+/*Pie de página*/
 
 .footer {
     background-color: #fff;
